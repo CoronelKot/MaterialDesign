@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">MaterialDesign</string>
+    <string name="menu_close_app">Cerrar</string>
+    <string name="menu_about">Acerca de...</string>
+    <string name="about">
+        Esta aplicaci\u00F3n fue creada con prop\u00F3sitos educacionales
+        para la materia de Programaci\u00F3n de Dispositivos M\u00F3viles.\n\n
+        Desarrollada por:\n
+        -<u>C\u00E9sar Padilla Coronel</u>\n
+        -<u>Fernando Romero Cruz</u>\n
+        -<u>Pablo Cesar Navarro Santana</u>\n
+        -<u>Jorge Eduardo Garc\u00EDa Serrano</u>\n\n
+
+        Versi\u00F3n: <!-->Colocar numero de version al finalizar la practica<!-->\t
+        Publicaci\u00F3n: XX Mar. 2025
+    </string>
+    <string name="ok">Ok</string>
 </resources>
