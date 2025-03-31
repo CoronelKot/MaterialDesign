@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MaterialDesign</string>
+
+    <string name="infinite_list_entry_message" >Message %1$d</string>
+
+    <string name="second_activity_launcher_button" >Lista infinita</string>
 </resources>
