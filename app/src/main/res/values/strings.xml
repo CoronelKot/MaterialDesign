@@ -15,4 +15,15 @@
         Publicaci\u00F3n: XX Mar. 2025
     </string>
     <string name="ok">OK</string>
+    <string name="contenido_lista1">Entrada 1</string>
+    <string name="contenido_lista2">Entrada 2</string>
+    <string name="contenido_lista3">Entrada 3</string>
+    <string name="contenido_lista4">Entrada 4</string>
+    <string name="contenido_lista5">Entrada 5</string>
+
+    <string name="add_to_list_button">Agregar elemento</string>
+
+    <string name="infinite_list_entry_message">Mensaje %1$d</string>
+
+    <string name="second_activity_launcher_button">Lista infinita</string>
 </resources>
