@@ -1,5 +1,7 @@
 package mx.unam.fciencias.materialdesign;
 
+public class SecondActivity {
+}
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
