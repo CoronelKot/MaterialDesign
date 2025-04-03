@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(this::launchSecondActivity);
     }
     public void launchSecondActivity(View button){
-        startActivities(new Intent(this,SecondActivity.class));
+        startActivity(new Intent(this,SecondActivity.class));
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

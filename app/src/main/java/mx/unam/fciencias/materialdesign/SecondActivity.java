@@ -26,12 +26,8 @@ public class SecondActivity extends AppCompatActivity {
         infiniteList.setLayoutManager(layoutManager);
         listAdapter = new InfiniteListAdapter(getResources());
         addListElement(null);
+        infiniteList.setAdapter(listAdapter);
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
     }
 
     public void addListElement(View button) {
