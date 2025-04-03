@@ -22,5 +22,14 @@ public class MainActivity extends AppCompatActivity {
     }
     public void launchSecondActivity(View button){
         startActivities(new Intent(this,SecondActivity.class));
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
+        });
+    }
+
+    public void launchSecondActivity(View view) {
+        startActivity(new Intent(this, SecondActivity.class));
     }
 }
